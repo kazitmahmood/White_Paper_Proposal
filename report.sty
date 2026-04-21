@@ -1,5 +1,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
 \usepackage[scaled]{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{amsmath, amssymb}
@@ -10,7 +11,7 @@
 \preauthor{\begin{center}}
 \postauthor{\end{center}}
 \predate{}
-\postdate{}
+\postdate{\vspace{-1.5em}}
 \usepackage{titlesec}
 \titleformat{\section}
   {\normalfont\bfseries}
@@ -57,6 +58,7 @@
 \usetikzlibrary{arrows.meta}
 \usepackage{authblk}
 \renewcommand\Affilfont{\footnotesize}
+\setlength{\affilsep}{2pt}
 \usepackage{color}
 \usepackage{soul}
 \newcommand{\hlc}[2]{%

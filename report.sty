@@ -1,0 +1,89 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{amsmath, amssymb}
+\usepackage{titling}
+\setlength{\droptitle}{-5em}
+\pretitle{\begin{center}\Large\bfseries}
+\posttitle{\end{center}}
+\preauthor{\begin{center}}
+\postauthor{\end{center}}
+\predate{}
+\postdate{}
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\bfseries}
+  {Section \thesection:}{1em}{}
+\titlespacing*{\section}{0pt}{3pt}{1pt}
+\titleformat{\subsection}
+  {\normalfont\bfseries}
+  {\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{3pt}{1pt}
+\titlespacing*{\paragraph}{0pt}{2pt}{0.3em}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{caption}
+\captionsetup{
+    labelfont=bf,
+    labelsep=colon
+}
+\usepackage{subcaption}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{array}
+\usepackage{tikz}
+\tikzset{every picture/.style={baseline=(current bounding box.south)}}
+\usepackage{quantikz}
+\usepackage{braket}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage[export]{adjustbox}
+\usetikzlibrary{3d}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{calc}
+\usepackage{geometry}
+\usepackage[inline]{enumitem}
+\geometry{left=17mm,right=15mm,top=17mm,bottom=18mm}
+\setlength{\parskip}{0pt}
+\setlist{topsep=2pt,parsep=0pt}
+\usepackage{indentfirst}
+\usepackage[hidelinks]{hyperref}
+\usepackage[backend=biber,style=numeric-comp,sorting=none]{biblatex}
+\addbibresource{reference.bib}
+\usetikzlibrary{arrows.meta}
+\usepackage{authblk}
+\renewcommand\Affilfont{\footnotesize}
+\usepackage{color}
+\usepackage{soul}
+\newcommand{\hlc}[2]{%
+  \begingroup
+  \sethlcolor{#1}\hl{#2}%
+  \endgroup
+}
+% convenience shortcuts
+\newcommand{\hly}[1]{\hlc{yellow}{#1}}
+\newcommand{\hlb}[1]{\hlc{cyan!25}{#1}}
+\usepackage[svgnames]{xcolor}
+\newcommand{\mathcolorbox}[2]{\colorbox{#1}{$\displaystyle #2$}}
+\usetikzlibrary{decorations.pathmorphing,calc,arrows.meta,backgrounds}
+\usetikzlibrary{positioning,shapes.geometric}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=2cm, minimum height=1cm,text centered, draw=black, fill=none]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm,text width=2.5cm, text centered, draw=black, fill=none]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, text width=3cm, draw=black, fill=none]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text width=2.5cm, text centered, draw=black, fill=none]
+\tikzstyle{arrow} = [thick,->]
+
+\usepackage{colortbl}
+% \usepackage{lineno}
+% \linenumbers
+
+% \usepackage{draftwatermark}
+
+% \SetWatermarkText{Accepted\\[4ex]Journal of Vibration and Acoustics}
+% \SetWatermarkScale{0.25}
+% \SetWatermarkAngle{45}
+% \SetWatermarkColor[]{red!20}

@@ -1,0 +1,47 @@
+\documentclass[11pt]{article}
+\usepackage{report}
+
+\title{Geometric-Phase Phononic Crystals for Nonlinear Acoustic Thermometry: A Path to Wireless Battery Safety Monitoring}
+\author{Kazi Tahsin Mahmood}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Intellectual Merit}
+\paragraph{Challenge.} Lithium-ion battery thermal runaway is a persistent safety and economic risk in transportation, grid storage, and defense systems, and internal hot-spot temperatures frequently precede external warning signs by minutes to hours. Existing embedded thermistors and fiber-optic sensors require wiring penetrations through the cell housing, introducing failure modes and limiting deployment density. A non-contact, wirelessly interrogated internal-state monitor would transform battery safety, but conventional ultrasonic approaches rely on amplitude-based features that drift with packaging, electrolyte condition, and state-of-charge.
+\paragraph{TA-based solution.} We propose a geometric-phase-based acoustic thermometry modality grounded in the band topology of engineered phononic crystals (PnCs). In a 1D PnC with broken inversion symmetry, the Bloch eigenstates carry a non-trivial Zak phase \cite{Xiao2015}, and the second-order nonlinear acoustic response acquires a phase contribution that is sourced by the $k$-space derivative of the Berry connection (the 1D analog of the Berry curvature dipole). Because this geometric contribution is quantized-like in the ideal limit and differential with respect to the linear response, it provides a sensing channel that is intrinsically insensitive to amplitude-level common-mode drift. Temperature shifts the elastic constants of the PnC matrix, which in turn shift the Berry connection derivative and appear as a measurable phase shift in the second-harmonic response. The linear resonance shifts too, but it does so through ordinary band-structure dilation; the geometric-phase signal shifts through a distinct mechanism tied to the topology of the bands. Differential readout between the two channels isolates the topological contribution and suppresses packaging- and drive-related drift.
+\paragraph{Why this is new.} Existing topological acoustic sensing work extracts geometric phase from wave scattering in native media \cite{Zhang2024}. Our approach is complementary: we extract geometric phase from the band structure of an engineered crystal and use the nonlinear response as the readout. Berry-curvature-dipole physics is well-developed for electronic bands (WTe$_2$, CdTe monolayers) \cite{Sodemann2015} but has not been developed as a classical-acoustic sensing modality. To our knowledge, no prior work connects engineered-PnC Berry-phase physics to nonlinear ultrasonic thermometry for energy-storage applications.
+\paragraph{Alignment with NewFoS mission.} The project sits at the intersection of basic topological acoustics (TA) research ($k$-space topology, nonlinear response theory) and a grand-challenge application (energy-storage safety, a DoE and DoD priority). It extends rather than duplicates NewFoS sensing programs by introducing engineered band topology as a new design degree of freedom, and is directly compatible with the center's wireless-interrogation thrust.
+
+\section{Research Plan}
+\paragraph{Objectives.}
+\begin{enumerate}[noitemsep]
+  \item Develop a two-band analytical model of the second-order acoustic response in a 1D inversion-symmetry-broken PnC, deriving the explicit dependence of the second-harmonic phase on the Zak-phase derivative.
+  \item Validate the model via finite-element simulation (COMSOL) of a realizable plate-waveguide geometry, mapping the second-harmonic phase as a function of asymmetry strength and temperature-driven elastic-constant variation.
+  \item Demonstrate the effect experimentally on a benchtop plate PnC coupled to a resistive heater, using matched piezoelectric transducers and lock-in phase detection, and establish the sensitivity floor and drift rejection of the geometric-phase channel relative to a linear-amplitude reference.
+\end{enumerate}
+\paragraph{Approach.}
+\begin{itemize}[noitemsep]
+  \item \textbf{Task 1 --- Theory (months 1--4):} Construct a tight-binding Hamiltonian for a 1D diatomic chain with sublattice-resolved on-site potentials, compute the Zak phase and its derivative, and use second-order perturbation theory to derive the $2f$ response amplitude and phase. Identify the parameter regime where the geometric contribution is separable from ordinary nonlinear elasticity.
+  \item \textbf{Task 2 --- Simulation (months 3--8):} Implement the corresponding plate-waveguide geometry in COMSOL (aluminum plate with periodic stubs of two alternating heights). Extract the band structure, compute the numerical Berry connection across the Brillouin zone, and simulate the nonlinear response under pump-probe excitation with temperature-dependent Young's modulus as the tuning parameter.
+  \item \textbf{Task 3 --- Fabrication and experiment (months 6--12):} Machine a 30--40\,cm plate waveguide with a CNC-milled stub pattern; bond two piezoelectric transducers (excitation and reception) at the ends; mount on a flat resistive heater with an embedded thermocouple; drive the excitation transducer with a tone-burst at the predicted operating frequency; use a vector network analyzer and a lock-in amplifier to extract the $2f$ component and its phase as a function of plate temperature across $20$--$100\,^\circ$C. Compare against a matched symmetric control sample where the geometric contribution should vanish.
+\end{itemize}
+\paragraph{Milestones and deliverables.}
+\begin{itemize}[noitemsep]
+  \item \textbf{M1 (month 4):} Analytical model and manuscript draft of theory contribution.
+  \item \textbf{M2 (month 8):} COMSOL validation and parameter map submitted as a conference paper.
+  \item \textbf{M3 (month 12):} Experimental demonstration of geometric-phase temperature sensitivity, differential readout against the control sample, and a full journal submission.
+  \item \textbf{Deliverables:} An open-source COMSOL model file, fabrication drawings of the plate waveguide, raw experimental data, and two manuscripts.
+\end{itemize}
+\paragraph{Risk and mitigation.} The principal risk is that the $2f$ geometric-phase signal is masked by ordinary nonlinearities from the transducers and bonding layer. Mitigation: (a) use the matched symmetric control as a common-mode reference; (b) operate below the bandgap edge to maximize linear transmission; (c) deploy a PnC-based input filter \cite{Ciampa2017} to suppress source-generated harmonics.
+\paragraph{Timeline.} Sept--Dec 2026: Task 1 theory; hire one PhD student. Jan--Apr 2027: Task 2 simulation; parallel fabrication of sample. May--Aug 2027: Task 3 experiment; manuscript preparation; conference presentation.
+\section{Broader Impact}
+\paragraph{Technological.} This project establishes a new class of acoustic sensors in which the signal is anchored to a topological invariant of the sensor material rather than to an amplitude feature of the wave. The modality generalizes from temperature to mechanical strain, chemical environment, and state-of-charge, opening follow-on pathways through NSF CMMI, DoE Vehicle Technologies Office, and DoD ONR. The wireless-interrogation angle aligns with the NewFoS communications thrust.
+\paragraph{Workforce and education.} One PhD student will be trained at the intersection of topological band theory, nonlinear acoustics, and applied sensing---a combination that is rare in the current workforce. Undergraduate research opportunities will be targeted at NewFoS partner Spelman College.
+\paragraph{Knowledge Transfer \& Path forward.} Simulation models and analysis scripts will be released open-source as a NewFoS community resource, the work will be featured in a NewFoS Magazine article, and one invention disclosure is anticipated. Year-2 external funding would package the sensor against commercial cells under charge-discharge cycling and validate against embedded-thermistor ground truth. A parallel path translates the same physics to acoustic nonreciprocity sensors for wireless communications, aligning with the second NewFoS grand-challenge thrust.
+
+\printbibliography
+
+\end{document}

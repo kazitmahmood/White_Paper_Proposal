@@ -3,7 +3,11 @@
     "allow": [
       "Bash(pdflatex -interaction=nonstopmode main.tex)",
       "Bash(biber main *)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:scholar.google.com)",
+      "WebFetch(domain:newfos.arizona.edu)",
+      "WebFetch(domain:www.nature.com)",
+      "WebFetch(domain:pubs.aip.org)"
     ]
   }
 }

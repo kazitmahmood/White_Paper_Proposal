@@ -70,6 +70,92 @@
       \verb 10.1021/acsomega.4c00983
       \endverb
     \endentry
+    \entry{Williams2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=32275b05fdca83558c6a16c8e33445d2}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3e39c760ef382027d43afb5cadcefc87}{%
+           family={Copley},
+           familyi={C\bibinitperiod},
+           given={Royce},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8d60269fdc32d0bdff0722600cdc7f4f}{%
+           family={Bugryniec},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e385eb974ea3684fccfa722a1144f17b}{%
+           family={Dwyer-Joyce},
+           familyi={D\bibinithyphendelim J\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ade4ae8ccbb66f0a5ea8acd6cd86cba1}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Solomon\bibnamedelima F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd409ae7396b865991cc43e4594cf719}
+      \strng{fullhash}{942a48458449dcac83dc0f9d0b6e9b38}
+      \strng{fullhashraw}{942a48458449dcac83dc0f9d0b6e9b38}
+      \strng{bibnamehash}{cd409ae7396b865991cc43e4594cf719}
+      \strng{authorbibnamehash}{cd409ae7396b865991cc43e4594cf719}
+      \strng{authornamehash}{cd409ae7396b865991cc43e4594cf719}
+      \strng{authorfullhash}{942a48458449dcac83dc0f9d0b6e9b38}
+      \strng{authorfullhashraw}{942a48458449dcac83dc0f9d0b6e9b38}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Power Sources}
+      \field{title}{A review of ultrasonic monitoring: Assessing current approaches to {Li}-ion battery monitoring and their relevance to thermal runaway}
+      \field{volume}{590}
+      \field{year}{2024}
+      \field{pages}{233777}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jpowsour.2023.233777
+      \endverb
+    \endentry
+    \entry{Lazarov2007}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f1e4990cd540be23c4cc1460aae047bf}{%
+           family={Lazarov},
+           familyi={L\bibinitperiod},
+           given={B.\bibnamedelimi S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=71b5a12116cc381a7e5046fa1a0fefda}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f4f965e161e4ccac96f22ebf11178a4}
+      \strng{fullhash}{5f4f965e161e4ccac96f22ebf11178a4}
+      \strng{fullhashraw}{5f4f965e161e4ccac96f22ebf11178a4}
+      \strng{bibnamehash}{5f4f965e161e4ccac96f22ebf11178a4}
+      \strng{authorbibnamehash}{5f4f965e161e4ccac96f22ebf11178a4}
+      \strng{authornamehash}{5f4f965e161e4ccac96f22ebf11178a4}
+      \strng{authorfullhash}{5f4f965e161e4ccac96f22ebf11178a4}
+      \strng{authorfullhashraw}{5f4f965e161e4ccac96f22ebf11178a4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Non-Linear Mechanics}
+      \field{number}{10}
+      \field{title}{Low-frequency band gaps in chains with attached non-linear oscillators}
+      \field{volume}{42}
+      \field{year}{2007}
+      \field{pages}{1186\bibrangedash 1193}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.ijnonlinmec.2007.09.007
+      \endverb
+    \endentry
     \entry{Mahmood2022}{article}{}{}
       \name{author}{2}{}{%
         {{hash=a96cd9f600cd380245819cbde60ae9d6}{%
@@ -92,8 +178,8 @@
       \strng{authorfullhash}{fb84f7ed183cda96a9c99b53589e85bc}
       \strng{authorfullhashraw}{fb84f7ed183cda96a9c99b53589e85bc}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific Reports}
@@ -128,8 +214,8 @@
       \strng{authorfullhash}{fb84f7ed183cda96a9c99b53589e85bc}
       \strng{authorfullhashraw}{fb84f7ed183cda96a9c99b53589e85bc}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vibration and Acoustics}
@@ -141,42 +227,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1115/1.4070907
-      \endverb
-    \endentry
-    \entry{Lazarov2007}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=f1e4990cd540be23c4cc1460aae047bf}{%
-           family={Lazarov},
-           familyi={L\bibinitperiod},
-           given={B.\bibnamedelimi S.},
-           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=71b5a12116cc381a7e5046fa1a0fefda}{%
-           family={Jensen},
-           familyi={J\bibinitperiod},
-           given={J.\bibnamedelimi S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{5f4f965e161e4ccac96f22ebf11178a4}
-      \strng{fullhash}{5f4f965e161e4ccac96f22ebf11178a4}
-      \strng{fullhashraw}{5f4f965e161e4ccac96f22ebf11178a4}
-      \strng{bibnamehash}{5f4f965e161e4ccac96f22ebf11178a4}
-      \strng{authorbibnamehash}{5f4f965e161e4ccac96f22ebf11178a4}
-      \strng{authornamehash}{5f4f965e161e4ccac96f22ebf11178a4}
-      \strng{authorfullhash}{5f4f965e161e4ccac96f22ebf11178a4}
-      \strng{authorfullhashraw}{5f4f965e161e4ccac96f22ebf11178a4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Non-Linear Mechanics}
-      \field{number}{10}
-      \field{title}{Low-frequency band gaps in chains with attached non-linear oscillators}
-      \field{volume}{42}
-      \field{year}{2007}
-      \field{pages}{1186\bibrangedash 1193}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1016/j.ijnonlinmec.2007.09.007
       \endverb
     \endentry
   \enddatalist

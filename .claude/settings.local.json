@@ -7,7 +7,17 @@
       "WebFetch(domain:scholar.google.com)",
       "WebFetch(domain:newfos.arizona.edu)",
       "WebFetch(domain:www.nature.com)",
-      "WebFetch(domain:pubs.aip.org)"
+      "WebFetch(domain:pubs.aip.org)",
+      "Bash(where gswin64c *)",
+      "Bash(where gs *)",
+      "Bash(where mutool *)",
+      "Bash(where pdftoppm *)",
+      "Bash(pdftoppm -r 120 -l 2 main.pdf page_check)",
+      "Bash(pdftoppm -r 72 -l 2 -png main.pdf page_small)",
+      "Bash(pdftoppm -r 120 -f 2 -l 2 -png main.pdf page2)",
+      "Bash(pdftoppm -r 100 -f 2 -l 2 -png main.pdf page2_check)",
+      "Bash(pdftoppm -r 100 -f 2 -l 2 -png main.pdf page2_v2)",
+      "Bash(pdftoppm -r 100 -f 2 -l 2 -png main.pdf page2_v3)"
     ]
   }
 }

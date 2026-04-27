@@ -120,6 +120,52 @@
       \verb 10.1016/j.jpowsour.2023.233777
       \endverb
     \endentry
+    \entry{Zhang2024SensorsGPC}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=83fc5414d43590f98c0b5123ec0eb42d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Guangdong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=26402d77f94eab16ee9d494f4f29bd4f}{%
+           family={Kundu},
+           familyi={K\bibinitperiod},
+           given={Tribikram},
+           giveni={T\bibinitperiod}}}%
+        {{hash=461fc24c5bbae11543d8f6d1ec55b927}{%
+           family={Deymier},
+           familyi={D\bibinitperiod},
+           given={Pierre\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4cc52af6355bd0caed9b24b7568d9264}{%
+           family={Runge},
+           familyi={R\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba23db97f8a483b7da8af2226c0a1743}
+      \strng{fullhash}{753bbc0889d4ece6d853ca6a48552d1a}
+      \strng{fullhashraw}{753bbc0889d4ece6d853ca6a48552d1a}
+      \strng{bibnamehash}{ba23db97f8a483b7da8af2226c0a1743}
+      \strng{authorbibnamehash}{ba23db97f8a483b7da8af2226c0a1743}
+      \strng{authornamehash}{ba23db97f8a483b7da8af2226c0a1743}
+      \strng{authorfullhash}{753bbc0889d4ece6d853ca6a48552d1a}
+      \strng{authorfullhashraw}{753bbc0889d4ece6d853ca6a48552d1a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{20}
+      \field{title}{A Comparative Study of Geometric Phase Change- and Sideband Peak Count-Based Techniques for Monitoring Damage Growth and Material Nonlinearity}
+      \field{volume}{24}
+      \field{year}{2024}
+      \field{pages}{6552}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s24206552
+      \endverb
+    \endentry
     \entry{Lazarov2007}{article}{}{}
       \name{author}{2}{}{%
         {{hash=f1e4990cd540be23c4cc1460aae047bf}{%
@@ -141,8 +187,8 @@
       \strng{authornamehash}{5f4f965e161e4ccac96f22ebf11178a4}
       \strng{authorfullhash}{5f4f965e161e4ccac96f22ebf11178a4}
       \strng{authorfullhashraw}{5f4f965e161e4ccac96f22ebf11178a4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Non-Linear Mechanics}
@@ -178,8 +224,8 @@
       \strng{authorfullhash}{fb84f7ed183cda96a9c99b53589e85bc}
       \strng{authorfullhashraw}{fb84f7ed183cda96a9c99b53589e85bc}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific Reports}
@@ -214,8 +260,8 @@
       \strng{authorfullhash}{fb84f7ed183cda96a9c99b53589e85bc}
       \strng{authorfullhashraw}{fb84f7ed183cda96a9c99b53589e85bc}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vibration and Acoustics}
